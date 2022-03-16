@@ -10,5 +10,6 @@ class IfCondition{
         else{
             System.out.println("a is not inside 100");
         }
+
         }
     }
