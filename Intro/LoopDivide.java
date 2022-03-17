@@ -8,7 +8,7 @@ class LoopDivide {
         int b =scan.nextInt();
         System.out.println("enter the divive");
         int c=scan.nextInt();
-        for (int i=a;i<=b;i++) {
+        for (int i=a;i>=b;i++) {
             if(i%c==0){
                 System.out.println(i);
             }

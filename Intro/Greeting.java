@@ -1,5 +1,5 @@
 import java.util.*;
-class Greating{
+class Greeting{
     public static void main(String[] args){
     Scanner scan=new Scanner(System.in);
     System.out.println("enter today");
@@ -17,6 +17,7 @@ class Greating{
                 System.out.println("how old are you");
                 break;
             }
+
             case "thursday":{
                 System.out.println("whare are you from");
                 break;
