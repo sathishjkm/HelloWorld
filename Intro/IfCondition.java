@@ -4,11 +4,16 @@ class IfCondition{
         Scanner Scan=new Scanner(System.in);
         System.out.println("enter the value a");
         int a=Scan.nextInt();
-        if(a<=100){
-            System.out.println("a is inside 100");
+        if(a<=20){
+            System.out.println("a catogry");
             }
+
+        else if(a<=30){
+            System.out.println("b catogry");
+        }
+
         else{
-            System.out.println("a is not inside 100");
+            System.out.println("c catogry");
         }
 
         }
